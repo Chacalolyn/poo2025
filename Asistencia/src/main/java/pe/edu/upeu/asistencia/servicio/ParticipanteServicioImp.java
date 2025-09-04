@@ -32,5 +32,9 @@ public class ParticipanteServicioImp extends ParticipanteRepository implements P
         participantes.remove(index);
     }
 
-    @Override public Participante findById(int index) {return participantes.get(index);}
+    @Override
+    public Participante findById(int index) {
+        return participantes.get(index);
     }
+
+}
